@@ -1,2 +1,5 @@
+console.log("✅ CDN JS Loaded");
 
-alert("✅ CDN JavaScript Loaded Successfully!");
+document.addEventListener("DOMContentLoaded", function () {
+  alert("✅ CDN JavaScript is working!");
+});
