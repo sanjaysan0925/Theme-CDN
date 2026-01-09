@@ -1,5 +1,10 @@
-console.log("✅ CDN JS Loaded");
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.insertAdjacentHTML(
+    "beforeend",
+    "<button id='cdnTestBtn'>Click Me</button>"
+  );
 
-document.addEventListener("DOMContentLoaded", function () {
-  alert("✅ CDN JavaScript is working!");
+  document.getElementById("cdnTestBtn").onclick = () => {
+    alert("🎉 CDN JS Button Works!");
+  };
 });
